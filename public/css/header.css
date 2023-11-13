@@ -17,19 +17,34 @@ header {
 }
 
 .search-bar {
-    background-color: #FFFFFF;
-    display: block;
-    border-radius: 5px;
-    color: #666;
-    padding: 2px;
-    
+ 
     width: 45%;
+    display: flex;
+    align-items: center;
+    background-color: #FFFFFF;
+    border: 1px solid #ebebee;
+    padding: 2px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 4px;
+    position: relative;
 }
 .search-bar input {
     background-color: transparent;
     border: none;
+    outline: none;
     margin-left: 5px;
     width: 100%;
+   
+}
+.lupa {
+    border: 0;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .header__div__compra {
     text-align: center;
@@ -56,6 +71,7 @@ header {
     border-radius: 5px;
     color: #FFFFFF;
     width: 25px;
+    cursor: pointer;
 }
 /*mobile*/
 @media (max-width:360px) {

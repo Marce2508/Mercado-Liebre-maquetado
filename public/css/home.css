@@ -1,5 +1,5 @@
 .div__banner img {
-    width: 100vw;
+    width: 100%;
     text-align: center;
     margin: auto;
 }
@@ -79,8 +79,9 @@
 @media (min-width:361px) {
     .home__main__section {
         display: flex;
-        justify-content: space-around;
         flex-wrap: wrap;
+        justify-content: space-around;
+        
         
     }
     
