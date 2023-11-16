@@ -4,6 +4,8 @@
     border: none;
     background-color: #1259C3;
     color: #ffffff;
-   
 }
 
+.button__primary:hover{
+    background-color:#0022AA;
+}

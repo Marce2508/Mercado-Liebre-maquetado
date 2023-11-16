@@ -1,4 +1,4 @@
-header {
+.header {
     background-color: #EAC926;
     padding: 10px;
     width: 100%;
@@ -17,7 +17,6 @@ header {
 }
 
 .search-bar {
- 
     width: 45%;
     display: flex;
     align-items: center;
@@ -29,14 +28,15 @@ header {
     border-radius: 4px;
     position: relative;
 }
+
 .search-bar input {
     background-color: transparent;
     border: none;
     outline: none;
     margin-left: 5px;
     width: 100%;
-   
 }
+
 .lupa {
     border: 0;
     background-color: #FFFFFF;
@@ -46,22 +46,27 @@ header {
     top: 50%;
     transform: translateY(-50%);
 }
+
 .header__div__compra {
     text-align: center;
     padding: 5px 0 20px;
 }
+
 .header__section__nav ul {
     padding: 10px 0;
     margin: 0;
 }
+
 .header__section__nav ul li a {
     text-decoration: none;
     color: #03264C;
 }
+
 #loguin {
     padding: 10px 0;
     margin: 0;
 }
+
 .burguer-menu a {
     display: block;
     margin: auto;
@@ -73,12 +78,14 @@ header {
     width: 25px;
     cursor: pointer;
 }
+
 /*mobile*/
 @media (max-width:360px) {
     .header__section__nav {
         display: none;
     }
 }
+
 /*tablet y desktop*/
 @media (min-width:361px) {
     .burguer-menu {
@@ -107,21 +114,17 @@ header {
 
     .header__section__nav {
         width: 45%;
-        
     }
 
     .header__section__nav ul {
-        
         display: flex;
         justify-content: space-around;
-        
     }
 
     .loguin {
        width: 45%;
        justify-content: space-between;
        display: flex;
-
     }
 
 }
